@@ -12,5 +12,5 @@ modules:
     enabled: true
     config:
       - name: config
-	value: deepspeed/inference/pylintrc
+	value: src/pylintrc
 
