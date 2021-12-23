@@ -4,4 +4,4 @@ modules:
     enabled: true
     config:
       - name: config
-        value: Bottles/src/pylintrc
+        value: src/pylintrc
