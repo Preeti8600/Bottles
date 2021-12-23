@@ -2,7 +2,7 @@ version: 1
 # Sources mention which Files/Dirs to be taken for Analysis
 sources:
   # Default Directory will be Curretn Directory for the yaml file. Once can specify the absolute path 
-  basedir: '/home/preeti/Embold/sourceCode/DeepSpeed'
+  basedir: '.'
 
 #Define modules one would like to run or disable.
 #If you would like to disable specific checks, one can do so   
@@ -14,5 +14,5 @@ modules:
       - name: config
 	type: text
 	required: true
-	value: deepspeed/inference
+	value: src/pylintrc
 
