@@ -1,12 +1,6 @@
 version: 1
-# Sources mention which Files/Dirs to be taken for Analysis
 sources:
-  # Default Directory will be Curretn Directory for the yaml file. Once can specify the absolute path 
-  basedir: '.'
-
-#Define modules one would like to run or disable.
-#If you would like to disable specific checks, one can do so   
-# To get more idea about rules & modules visit http://rules.embold.io
+  basedir: .
 modules:
   - name: pylint
     enabled: true
@@ -15,4 +9,3 @@ modules:
 type: text
 required: true
 value: src/pylintrc
-
