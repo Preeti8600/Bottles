@@ -4,4 +4,4 @@ modules:
     enabled: true
     config:
       - name: config
-        value: src/pylintrc
+        value: src/views/pylintrc
