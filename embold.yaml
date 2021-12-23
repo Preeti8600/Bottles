@@ -1,6 +1,6 @@
 version: 1
 sources:
-  basedir: /home/preeti/Embold/sourceCode/DeepSpeed
+  basedir:
 modules:
   - name: pylint
     enabled: true
