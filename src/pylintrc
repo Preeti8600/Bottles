@@ -59,7 +59,7 @@ confidence=
 # --enable=similarities". If you want to run only the classes checker, but have
 # no Warning level messages displayed, use"--disable=all --enable=classes
 # --disable=W"
-disable= R
+disable= E
 
 
 [REPORTS]
@@ -272,13 +272,13 @@ ignore-long-lines=^\s*(# )?<?https?://\S+>?$
 
 # Allow the body of an if to be on the same line as the test if there is no
 # else.
-single-line-if-stmt=no
+#single-line-if-stmt=no
 
 # List of optional constructs for which whitespace checking is disabled. `dict-
 # separator` is used to allow tabulation in dicts, etc.: {1  : 1,\n222: 2}.
 # `trailing-comma` allows a space between comma and closing bracket: (a, ).
 # `empty-line` allows space-only lines.
-no-space-check=trailing-comma,dict-separator
+#no-space-check=trailing-comma,dict-separator
 
 # Maximum number of lines in a module
 max-module-lines=1000
@@ -311,11 +311,11 @@ import-graph=
 
 # Create a graph of external dependencies in the given file (report RP0402 must
 # not be disabled)
-ext-import-graph=
+#ext-import-graph=
 
 # Create a graph of internal dependencies in the given file (report RP0402 must
 # not be disabled)
-int-import-graph=
+#int-import-graph=
 
 
 [DESIGN]
@@ -325,7 +325,7 @@ max-args=5
 
 # Argument names that match this expression will be ignored. Default to name
 # with leading underscore
-ignored-argument-names=_.*
+#ignored-argument-names=_.*
 
 # Maximum number of locals for function / method body
 max-locals=15
@@ -334,45 +334,45 @@ max-locals=15
 max-returns=6
 
 # Maximum number of branch for function / method body
-max-branches=12
+max-branches=0
 
 # Maximum number of statements in function / method body
-max-statements=50
+max-statements=0
 
 # Maximum number of parents for a class (see R0901).
-max-parents=7
+max-parents=0
 
 # Maximum number of attributes for a class (see R0902).
-max-attributes=7
+max-attributes=0
 
 # Minimum number of public methods for a class (see R0903).
-min-public-methods=2
+min-public-methods=0
 
 # Maximum number of public methods for a class (see R0904).
-max-public-methods=20
+max-public-methods=0
 
 # Maximum number of boolean expressions in a if statement
-max-bool-expr=5
+max-bool-expr=0
 
 
 [CLASSES]
 
 # List of method names used to declare (i.e. assign) instance attributes.
-defining-attr-methods=__init__,__new__,setUp
+#defining-attr-methods=__init__,__new__,setUp
 
 # List of valid names for the first argument in a class method.
-valid-classmethod-first-arg=cls
+#valid-classmethod-first-arg=cls
 
 # List of valid names for the first argument in a metaclass class method.
-valid-metaclass-classmethod-first-arg=mcs
+#valid-metaclass-classmethod-first-arg=mcs
 
 # List of member names, which should be excluded from the protected access
 # warning.
-exclude-protected=_asdict,_fields,_replace,_source,_make
+#exclude-protected=_asdict,_fields,_replace,_source,_make
 
 
 [EXCEPTIONS]
 
 # Exceptions that will emit a warning when being caught. Defaults to
 # "Exception"
-overgeneral-exceptions=Exception
+#overgeneral-exceptions=Exception
