@@ -12,7 +12,7 @@ modules:
     enabled: true
     config:
       - name: config
-	type: text
-	required: true
-	value: src/pylintrc
+type: text
+required: true
+value: src/pylintrc
 
